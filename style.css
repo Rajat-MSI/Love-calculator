@@ -156,3 +156,15 @@ input.reload {
     text-align: center;
     margin: 0px 460px;
 }
+
+a
+{
+    text-decoration: none;
+}
+input.reload {
+    display: none;
+    background-color: #FFCDDD;
+    width: 20%;
+    text-align: center;
+    margin: 0px 460px;
+}
