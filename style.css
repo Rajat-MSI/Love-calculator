@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Sacramento', cursive;
+    margin: 0px 120px;
+}
+.main-body{
+    background-color: #EA99D5;
+    border: 5px solid #B762C1;
+    border-top: 0;
+    border-bottom: 0;
+}
+.page-header {
+    margin: 0;
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    /* font-weight:normal; */
+
+}
+
+.sub-page-header {
+    position: relative;
+    left: 10%;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    color: black;
+    /* font-weight:normal; */
+}
+
+.main-content {
+    padding: 1rem 1rem;
+}
+
+.top-content {
+    background-color: #FFCDDD;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border: 5px solid #B762C1;
+    border-top: none;
+}
+
+.main-content p {
+    padding: 2%;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    margin: 0;
+    font-weight: normal;
+}
+
+.calculate-content {
+    border: 5px solid #B762C1;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    padding: 1.5rem;
+    background-color: #FFCDDD;
+    /* width: 50%; */
+    border-radius: 80px;
+}
+
+.scroll-below {
+    text-align: center;
+    padding: 0px;
+    font-weight: normal;
+    font-size:1.5rem;
+    display: none;
+
+}
+
+table {
+    margin: 0px auto;
+    position: relative;
+    font-size: 2rem;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"] {
+    font-family: 'Sacramento', cursive;
+    outline: none;
+    border: 5px solid #EA99D5;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: center;
+}
+
+input[type="Button"] {
+    Background-color: #EA99D5;
+    border: 2px solid #B762C1;
+    border-bottom: 8px solid #B762C1;
+    Border-radius: 40px;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    transition: border-bottom margin-top 0.3s;
+}
+
+input[type="Button"]:active {
+    border-bottom: 0px solid #B762C1;
+    margin-top: 10px;
+}
+
+.couple {
+    padding: 0px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px auto;
+}
+
+.heart {
+    padding: 10px;
+    width: 17%;
+    display: none;
+    margin: 0px auto;
+}
+
+.results {
+    padding: 40px 50px;
+}
+
+.lovePercent {
+    display: none;
+    color: black;
+    font-weight: normal;
+    position: relative;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about {
+    padding: 5px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+a
+{
+    text-decoration: none;
+}
+input.reload {
+    display: none;
+    background-color: #FFCDDD;
+    width: 20%;
+    text-align: center;
+    margin: 0px 460px;
+}
