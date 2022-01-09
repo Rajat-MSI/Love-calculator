@@ -15,7 +15,7 @@ function love() {
         {
             lovePercent = 100;
         }
-        alert(lovePercent);
+//         alert(lovePercent);
         document.querySelector(".couple").innerHTML = "'" + person1 + "'  &  '" + person2 + "'";
         document.querySelector(".heart").style.display = "block";
         document.querySelector(".scroll-below").style.display = "block";
